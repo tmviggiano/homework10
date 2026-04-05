@@ -100,8 +100,8 @@ jobs:
         with:
           push: true
           tags: |
-            tomviggiano/601_module9:latest
-            tomviggiano/601_module9:${{ github.sha }}
+            tomviggiano/601_module10:latest
+            tomviggiano/601_module10:${{ github.sha }}
           platforms: linux/amd64,linux/arm64
-          cache-from: type=registry,ref=tomviggiano/601_module9:cache
+          cache-from: type=registry,ref=tomviggiano/601_module10:cache
           cache-to: type=inline,mode=max
